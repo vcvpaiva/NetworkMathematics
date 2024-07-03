@@ -20,4 +20,5 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 
 4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author identified "definitions", which we can in principle tap for our own purposes.
    
+# Implementing Dialectica
 
