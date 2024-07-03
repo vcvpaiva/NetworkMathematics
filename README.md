@@ -8,6 +8,8 @@ Talks given about it:
 * https://www.youtube.com/watch?v=DAuB6F90KtQ
 * 
 
+Work on mathematical text:
+
 1. The prototype from the work with Jacob Collard and Eswaran Subrahmanian is at http://www.jacobcollard.com/parmesan2/ 
 We have preprints:
 https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks,
