@@ -4,6 +4,10 @@ A place to collect the work happening at the Hausdorff Institute of Mathematics
 [Prospects of Formal Mathematics](https://www.mathematics.uni-bonn.de/him/programs/current-trimester-program/him-trimester-program-prospects-of-formal-mathematics)
 programme.
 
+Talks given about it:
+* https://www.youtube.com/watch?v=DAuB6F90KtQ
+* 
+
 1. The prototype from the work with Jacob Collard and Eswaran Subrahmanian is at http://www.jacobcollard.com/parmesan2/ 
 We have preprints:
 https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks,
