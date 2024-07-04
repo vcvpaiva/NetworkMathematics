@@ -33,16 +33,16 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
 Frederik Schaefer is investigating the idea and has a 1% sample.
 
-6. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
+5. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
    1. TAC abstracts ~3K sentences in
-https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl
-   2. 433 'clean' sentences from above
+https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl. 433 'clean' sentences from above
 https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
-   3. nLab 2020 and 2024 (~15K, ~19K pages) in json in
-https://github.com/ToposInstitute/nLab2024-corpus
-   4. nLab `clean' sentences ~50K in
+   2. nLab 2020 and 2024 (~15K, ~19K pages) in json in
+https://github.com/ToposInstitute/nLab2024-corpus. nLab `clean' sentences ~50K in
 https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv
+But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). So we're now using Frederik Schaefer's data.
 
+6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's unimath, standard, and TypeTopology libraries. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
 
    
 # Implementing Dialectica Categories
