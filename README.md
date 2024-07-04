@@ -1,8 +1,8 @@
-# NetworkMathematics
-
-A place to collect the work happening at the Hausdorff Institute of Mathematics 
+(A place to collect the work happening at the Hausdorff Institute of Mathematics 
 [Prospects of Formal Mathematics](https://www.mathematics.uni-bonn.de/him/programs/current-trimester-program/him-trimester-program-prospects-of-formal-mathematics)
-programme.
+programme.)
+
+# NetworkMathematics
 
 Talks given about it:
 * At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ (Oct 2023)
