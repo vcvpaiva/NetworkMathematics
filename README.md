@@ -48,7 +48,10 @@ But TAC abstracts do NOT contain definitions (I should've known) and nLab is not
    
 # Implementing Dialectica Categories
 
-A different project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation".
+A different project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation". 
+I want to formalize Dialectica categories, because there are several instances of the construction and it would be good to do them once and for all.
+Also several applications of these ideas have been uncovered over the years and it would be nice to know how the different instances relate to each other.
+Some non-formalized discussions can be found at https://github.com/vcvpaiva/DialecticaCategories/blob/master/README.md.
 
 1. I first to Reed Mullanix about it. Reed came up with an interesting idea https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657
 But  we didn't have time to develop it, as it was his last week here.
