@@ -5,8 +5,9 @@ A place to collect the work happening at the Hausdorff Institute of Mathematics
 programme.
 
 Talks given about it:
-* https://www.youtube.com/watch?v=DAuB6F90KtQ
-* 
+* At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ
+* At Chapman University https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1
+* At Women in Logic Online https://www.youtube.com/watch?v=SE5vIeBEGWI
 
 Work on mathematical text:
 
@@ -24,7 +25,9 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 
 3. The work with Larry Moss, Bert Gao, and Pavel Kovalev which produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently because we're more interested in thinking about using LLMs for Natural Language Inference. But we should reconsider it in the light of the extraction of definitions using LLMS.
 
-4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author identified "definitions", which we can in principle tap for our own purposes.
+4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes. Frederik S is investigating the idea and has a 1% sample.
+
+Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in 
    
 # Implementing Dialectica
 
