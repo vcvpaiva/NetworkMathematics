@@ -46,5 +46,5 @@ https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.
    
 # Implementing Dialectica Categories
 
-An unrelated project, arising from my doctoral work on Kurt Gödel's Dialectica Interpretation.
+An unrelated project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation".
 
