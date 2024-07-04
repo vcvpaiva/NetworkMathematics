@@ -39,7 +39,8 @@ https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl. 43
 https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
    2. nLab 2020 and 2024 (~15K, ~19K pages) in json in
 https://github.com/ToposInstitute/nLab2024-corpus. nLab `clean' sentences ~50K in
-https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv
+https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv.
+
 But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). So we're now using Frederik Schaefer's data.
 
 6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's unimath, standard, and TypeTopology libraries. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
