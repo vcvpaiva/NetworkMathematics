@@ -5,9 +5,9 @@ A place to collect the work happening at the Hausdorff Institute of Mathematics
 programme.
 
 Talks given about it:
-* At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ
-* At Chapman University https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1
-* At Women in Logic Online https://www.youtube.com/watch?v=SE5vIeBEGWI
+* At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ (Oct 2023)
+* At Chapman University https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1 (May 2024)
+* At Women in Logic Online https://www.youtube.com/watch?v=SE5vIeBEGWI (Mar 2024)
 
 Work on mathematical text:
 
