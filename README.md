@@ -14,13 +14,13 @@ Work on mathematical text:
 1. The prototype from the work with Jacob Collard and Eswaran Subrahmanian is at http://www.jacobcollard.com/parmesan2/
     
 We have preprints:
-* https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks,
+* https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks, presented at COLING2024 and Workshop
 
 * https://arxiv.org/abs/2307.06699 Parmesan: mathematical concept extraction for education, 
 
-* https://arxiv.org/abs/2208.13830 Extracting Mathematical Concepts from Text
+* https://arxiv.org/abs/2208.13830 Extracting Mathematical Concepts from Text (Proceedings of the Eighth Workshop on Noisy User-generated Text (W-NUT 2022))
 
-3. The prototype from the work with Lucy Horowitz on a glossary for undergraduate mathematics is at MathGloss https://mathgloss.github.io/MathGloss/database
+2. The prototype from the work with Lucy Horowitz on a glossary for undergraduate mathematics is at MathGloss https://mathgloss.github.io/MathGloss/database
    A newer prototype glossary dealing with Category Theory and built from textbooks from Leinster, Goldblatt and Riehl is at https://mathgloss.github.io/CatGloss/database.
     
 The original preprint is https://arxiv.org/abs/2311.12649 MathGloss: Building mathematical glossaries from text.
@@ -30,7 +30,19 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 
 4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes. Frederik S is investigating the idea and has a 1% sample.
 
-5. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in 
+5. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
+   1. TAC abstracts ~3K sentences in
+https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl
+   2. 433 'clean' sentences from above
+https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
+   3. nLab 2020 and 2024 (~15K, ~19K pages) in json in
+https://github.com/ToposInstitute/nLab2024-corpus
+   4. nLab `clean' sentences ~50K in
+https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv
+
+
    
-# Implementing Dialectica
+# Implementing Dialectica Categories
+
+An unrelated project, arising from my doctoral work on Kurt Gödel's Dialectica Interpretation.
 
