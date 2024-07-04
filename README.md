@@ -47,5 +47,15 @@ https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.
    
 # Implementing Dialectica Categories
 
-An unrelated project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation".
+A different project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation".
+
+1. I first to Reed Mullanix about it. Reed came up with an interesting idea https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657
+But  we didn't have time to develop it, as it was his last week here.
+
+2. Then I talked to Maximilian Dore about it. Maximilian likes cubical Agda very much much.
+   Since Harley Eades has an old preliminary implementation of Dialectica categories in Agda (see https://github.com/heades/dialectica-spaces/tree/master) this made sense.
+   But Harley did not implement the relations. Max now thinks he would prefer to work on Chu spaces.
+
+3. I talked to Cyril Coen, who thought Rocq or Coq would make sense.
+   
 
