@@ -30,9 +30,10 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 
 3. The work with Larry Moss, Bert Gao, and Pavel Kovalev which produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently because we're more interested in thinking about using LLMs for Natural Language Inference. But we should reconsider it in the light of the extraction of definitions using LLMS.
 
-4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes. Frederik S is investigating the idea and has a 1% sample.
+4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
+Frederik Schaefer is investigating the idea and has a 1% sample.
 
-5. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
+6. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
    1. TAC abstracts ~3K sentences in
 https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl
    2. 433 'clean' sentences from above
