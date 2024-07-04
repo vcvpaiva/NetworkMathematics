@@ -20,10 +20,12 @@ We have preprints:
 
 * https://arxiv.org/abs/2208.13830 Extracting Mathematical Concepts from Text (Proceedings of the Eighth Workshop on Noisy User-generated Text (W-NUT 2022))
 
-2. The prototype from the work with Lucy Horowitz on a glossary for undergraduate mathematics is at MathGloss https://mathgloss.github.io/MathGloss/database
-   A newer prototype glossary dealing with Category Theory and built from textbooks from Leinster, Goldblatt and Riehl is at https://mathgloss.github.io/CatGloss/database.
+2. The prototype with Lucy Horowitz on a glossary for undergraduate mathematics is at MathGloss https://mathgloss.github.io/MathGloss/database
+   
+   A newer prototype glossary dealing with Category Theory and building from Leinster, Goldblatt and Riehl's textbooks is at https://mathgloss.github.io/CatGloss/database.
     
 The original preprint is https://arxiv.org/abs/2311.12649 MathGloss: Building mathematical glossaries from text.
+
 Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Definition Extraction from Mathematical Text](https://arxiv.org/abs/2406.13827)
 
 3. The work with Larry Moss, Bert Gao, and Pavel Kovalev which produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently because we're more interested in thinking about using LLMs for Natural Language Inference. But we should reconsider it in the light of the extraction of definitions using LLMS.
