@@ -63,7 +63,7 @@ Some non-formalized discussions can be found at https://github.com/vcvpaiva/Dial
 
 3. I talked to Cyril Cohen, who thought Rocq  would make sense.
 
-4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/commit/40b32a6889271cad127a4a470adaa366fc9bbc75), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more. But this then completes the fourth 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
+4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/pull/14274/files), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more. But this then completes the fourth 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
 
 5.  
    
