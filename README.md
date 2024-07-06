@@ -63,8 +63,12 @@ Some non-formalized discussions can be found at https://github.com/vcvpaiva/Dial
 
 3. I talked to Cyril Cohen, who thought Rocq  would make sense.
 
-4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/pull/14274/files), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more. But this then completes the fourth 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
+4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/pull/14274/files), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more. But this then completes the third 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
 
-5.  
+5. The first deliverable was   "Monoidal structures on generalized polynomial categories", Joseph Dorta, Samantha Jarvis, and Nelson Niu. May 2023. arXiv:2305.05655. Presented at ACT 2023, JMM 2023.
+   The second deliverable was "On a fibrational construction for optics, lenses, and Dialectica categories"
+Matteo Capucci, Bruno Gavranović, Abdullah Malik, Francisco Rios, Jonathan Weinberger, https://arxiv.org/abs/2403.16388. Presented at MFPS 2024, Oxford.
+
+6.  
    
 
