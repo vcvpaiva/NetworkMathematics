@@ -42,9 +42,9 @@ https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
 https://github.com/ToposInstitute/nLab2024-corpus. nLab `clean' sentences ~50K in
 https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv.
 
-But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). So we're now using Frederik Schaefer's data.
+But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). So we're now using Frederik Schaefer's data over the arxiv math.CT papers.
 
-6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's unimath, standard, and TypeTopology libraries. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
+6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
 
    
 # Implementing Dialectica Categories
@@ -54,13 +54,17 @@ I want to formalize Dialectica categories, because there are several instances o
 Also several applications of these ideas have been uncovered over the years and it would be nice to know how the different instances relate to each other.
 Some non-formalized discussions can be found at https://github.com/vcvpaiva/DialecticaCategories/blob/master/README.md.
 
-1. I first to Reed Mullanix about it. Reed came up with an interesting idea https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657
-But  we didn't have time to develop it, as it was his last week here.
+1. I first talked  to Reed Mullanix about it. Reed came up with an interesting idea https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657
+   But  we didn't have time to develop it, as it was his last week here and he was more interested in formalizing the tripos-to-toposes construction.
 
-2. Then I talked to Maximilian Dore about it. Maximilian likes cubical Agda very much much.
-   Since Harley Eades has an old preliminary implementation of Dialectica categories in Agda (see https://github.com/heades/dialectica-spaces/tree/master) this made sense.
+2. Then I talked to Maximilian Dore about it. Maximilian likes cubical Agda very much.
+   Since Harley Eades has an old preliminary implementation of Dialectica categories in Agda (see https://github.com/heades/dialectica-spaces/tree/master) trying to use Agda made sense.
    But Harley did not implement the relations. Max now thinks he would prefer to work on Chu spaces.
 
-3. I talked to Cyril Coen, who thought Rocq or Coq would make sense.
+3. I talked to Cyril Cohen, who thought Rocq  would make sense.
+
+4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/commit/40b32a6889271cad127a4a470adaa366fc9bbc75), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more. But this then completes the fourth 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
+
+5.  
    
 
