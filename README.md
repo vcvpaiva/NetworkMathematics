@@ -25,7 +25,7 @@ We have preprints:
    
    A newer prototype glossary dealing with Category Theory [CatGloss](https://mathgloss.github.io/CatGloss/database) and building from Leinster, Goldblatt, and Riehl's textbooks.
     
-   The original preprint on MathGloss is [Building mathematical glossaries from text](https://arxiv.org/abs/2311.12649 MathGloss).
+   The original preprint on MathGloss is [Building mathematical glossaries from text](https://arxiv.org/abs/2311.12649).
 
 Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Definition Extraction from Mathematical Text](https://arxiv.org/abs/2406.13827)
 
