@@ -31,10 +31,10 @@ Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Defi
 
 3. The work with Larry Moss, Bert Gao, and Pavel Kovalev which produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently because we're more interested in thinking about using LLMs for Natural Language Inference. But we should reconsider it in the light of the extraction of definitions using LLMS.
 
-4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv they call it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
-Frederik Schaefer is investigating the idea and has a 1% sample.
+4. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv as he calls it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
+Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
-5. Josef Urban suggests instead using LLMS to extract definitions. I pointed him to our 'informal corpora' in
+ Josef Urban suggests  using LLMS to extract definitions. I pointed him to our 'informal corpora' in
    1. TAC abstracts ~3K sentences in
 https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl. 433 'clean' sentences from above
 https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
@@ -42,9 +42,15 @@ https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt
 https://github.com/ToposInstitute/nLab2024-corpus. nLab `clean' sentences ~50K in
 https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv.
 
-But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). So we're now using Frederik Schaefer's data over the arxiv math.CT papers.
+But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). 
+So we're now using Deyan Ginev's data modified by Frederik Schaefer,  consisting of arxiv math.CT papers. https://github.com/JUrban/extract-defs
+Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions', considered as such by the authors in the arxiv latex files.
 
-6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
+5. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort.
+
+6. Lucy Horowitz has MathGloss and CatGloss. Given the big push for Lean formalization going on, we would like to extend our Lean mappings. How should we go about it? Discussed with Mario how to tap the expertise of Lean developers for that. They have a mental map of which concepts are where in the library. We want that mental map written down.
+    
+    We are also thinking which other datasets would be useful to connect.
 
    
 # Formalizing Dialectica Categories
