@@ -5,7 +5,7 @@ programme.)
 # NetworkMathematics
 
 Talks given about it:
-* At HIM AI Tools for Better Math https://www.youtube.com/watch?v=C7NBGlJb2DQ&list=PLul8LCT3AJqQgcJYiC0CycjFLcrhM2fRg&index=4
+* At HIM June 2024 AI Tools for Better Math https://www.youtube.com/watch?v=C7NBGlJb2DQ&list=PLul8LCT3AJqQgcJYiC0CycjFLcrhM2fRg&index=4
 * At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ (Oct 2023)
 * At Chapman University https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1 (May 2024)
 * At Women in Logic Online https://www.youtube.com/watch?v=SE5vIeBEGWI (Mar 2024)
