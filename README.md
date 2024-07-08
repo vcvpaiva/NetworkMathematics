@@ -47,7 +47,7 @@ But TAC abstracts do NOT contain definitions (I should've known) and nLab is not
 6. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization", using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'.
 
    
-# Implementing Dialectica Categories
+# Formalizing Dialectica Categories
 
 A different project, arising from my doctoral work on an internal categorical characterization of Kurt Gödel's "Dialectica Interpretation". 
 I want to formalize Dialectica categories, because there are several instances of the construction and it would be good to do them once and for all.
