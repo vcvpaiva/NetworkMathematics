@@ -23,9 +23,9 @@ We have preprints:
 
 2. The [MathGloss prototype](https://mathgloss.github.io/MathGloss/database) with Lucy Horowitz, a glossary for undergraduate mathematics semi-automatically created from open source freely available resources.
    
-   A newer prototype glossary dealing with Category Theory [CatGloss](https://mathgloss.github.io/CatGloss/database) and building from Leinster, Goldblatt, and Riehl's textbooks is at .
+   A newer prototype glossary dealing with Category Theory [CatGloss](https://mathgloss.github.io/CatGloss/database) and building from Leinster, Goldblatt, and Riehl's textbooks.
     
-   The original preprint on MathGloss is https://arxiv.org/abs/2311.12649 MathGloss: Building mathematical glossaries from text.
+   The original preprint on MathGloss is [Building mathematical glossaries from text](https://arxiv.org/abs/2311.12649 MathGloss).
 
 Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Definition Extraction from Mathematical Text](https://arxiv.org/abs/2406.13827)
 
