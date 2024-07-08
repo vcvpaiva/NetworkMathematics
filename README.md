@@ -12,18 +12,18 @@ Talks given about the project:
 
 Work on mathematical text:
 
-1. The [Parmesan prototype](http://www.jacobcollard.com/parmesan2/) work with Jacob Collard and Eswaran Subrahmanian
+1. The [Parmesan prototype](http://www.jacobcollard.com/parmesan2/) a math learning assistant, work with Jacob Collard and Eswaran Subrahmanian
     
 We have preprints:
-* https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks, presented at COLING2024 and Workshop
+*  [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577), presented at COLING2024 and Workshop
 
-* https://arxiv.org/abs/2307.06699 Parmesan: mathematical concept extraction for education, 
+*  [Parmesan: mathematical concept extraction for education](https://arxiv.org/abs/2307.06699) 
 
-* https://arxiv.org/abs/2208.13830 Extracting Mathematical Concepts from Text (Proceedings of the Eighth Workshop on Noisy User-generated Text (W-NUT 2022))
+*  [Extracting Mathematical Concepts from Text](https://arxiv.org/abs/2208.13830), Proceedings of the Eighth Workshop on Noisy User-generated Text (W-NUT 2022)
 
-2. The MathGloss prototype with Lucy Horowitz, a glossary for undergraduate mathematics semi-automatically created, is at MathGloss https://mathgloss.github.io/MathGloss/database
+2. The [MathGloss prototype](https://mathgloss.github.io/MathGloss/database) with Lucy Horowitz, a glossary for undergraduate mathematics semi-automatically created from open source freely available resources.
    
-   A newer prototype glossary dealing with Category Theory and building from Leinster, Goldblatt, and Riehl's textbooks is at https://mathgloss.github.io/CatGloss/database.
+   A newer prototype glossary dealing with Category Theory [CatGloss](https://mathgloss.github.io/CatGloss/database) and building from Leinster, Goldblatt, and Riehl's textbooks is at .
     
    The original preprint on MathGloss is https://arxiv.org/abs/2311.12649 MathGloss: Building mathematical glossaries from text.
 
