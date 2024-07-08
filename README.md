@@ -6,7 +6,7 @@ programme.)
 
 Talks given about the project:
 * At HIM (June 2024) [AI Tools for Better Math](https://www.youtube.com/watch?v=C7NBGlJb2DQ&list=PLul8LCT3AJqQgcJYiC0CycjFLcrhM2fRg&index=4)
-* At Topos Institute (Oct 2023) [Network Mathematics for Beginners](https://www.youtube.com/watch?v=DAuB6F90KtQ) 
+* At Topos Institute (Oct 2023) [Network Mathematics for Beginners](https://www.youtube.com/watch?v=DAuB6F90KtQ) thanks Dana for the support!
 * At Chapman University (May 2024) https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1 
 * At Women in Logic Online (Mar 2024) https://www.youtube.com/watch?v=SE5vIeBEGWI 
 
