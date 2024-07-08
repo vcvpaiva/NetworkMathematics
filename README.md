@@ -27,7 +27,7 @@ We have preprints:
     
    The original preprint on MathGloss is [Building mathematical glossaries from text](https://arxiv.org/abs/2311.12649).
 
-Lucy also has some recent work with Ryan Hathaway at [Fine-Tuning BERTs for Definition Extraction from Mathematical Text](https://arxiv.org/abs/2406.13827)
+Lucy also has some recent work with Ryan Hathaway [Fine-Tuning BERTs for Definition Extraction from Mathematical Text](https://arxiv.org/abs/2406.13827)
 
 Given the big push for Lean formalization going on, we would like to extend our Lean mappings. How should we go about it? Discussed with Mario how to tap the expertise of Lean developers for that. They have a mental map of which concepts are where in the library. We want that mental map written down.
     
