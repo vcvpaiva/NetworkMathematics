@@ -38,7 +38,7 @@ Given the big push for Lean formalization going on, we would like to extend our 
 Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
  Josef Urban suggests  using LLMS to extract definitions. I pointed him to our 'informal corpora' in
-* [TAC abstracts](https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl) ~3K sentences in. [433 'clean' sentences](https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt) from above
+* [TAC abstracts](https://github.com/vcvpaiva/NLIMath/blob/main/3000_sentences_extracted.jsonl) ~3K sentences in. [433 'clean' sentences](https://github.com/vcvpaiva/NLIMath/blob/main/Experiment436/Experiment2.txt) from above.
 
 * [nLab 2020](https://github.com/ToposInstitute/nLab2024-corpus) and 2024 (~15K, ~19K pages) in json format. [nLab `clean' sentences](https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv) ~50K 
 
