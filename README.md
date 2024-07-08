@@ -42,7 +42,7 @@ Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
 * [nLab 2020](https://github.com/ToposInstitute/nLab2024-corpus) and 2024 (~15K, ~19K pages) in json format. [nLab `clean' sentences](https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv) ~50K 
 
-But TAC abstracts do NOT contain definitions (I should've known) and nLab is not producing good results (don't know why). 
+But TAC abstracts do NOT contain definitions (I should've known, given Lucy and Ryan's work) and nLab is not producing good results (don't know why). 
 So we're now using Deyan Ginev's data modified by Frederik Schaefer,  consisting of arxiv math.CT papers. https://github.com/JUrban/extract-defs
 Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions', considered as such by the authors in the arxiv latex files.
 
@@ -57,7 +57,7 @@ I want to formalize Dialectica categories, because there are several instances o
 Also several applications of these ideas have been uncovered over the years and it would be nice to know how the different instances relate to each other.
 Some non-formalized discussions can be found at https://github.com/vcvpaiva/DialecticaCategories/blob/master/README.md.
 
-1. I first talked  to Reed Mullanix about it. Reed came up with an interesting idea https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657
+1. I first talked  to Reed Mullanix about it. Reed came up with an [interesting idea](https://gist.github.com/TOTBWF/e946b99a6770d7bd53fdebe5f9064657)
    But  we didn't have time to develop it, as it was his last week here and he was more interested in formalizing the tripos-to-toposes construction.
 
 2. Then I talked to Maximilian Dore about it. Maximilian likes cubical Agda very much.
