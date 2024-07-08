@@ -4,15 +4,15 @@ programme.)
 
 # NetworkMathematics
 
-Talks given about it:
-* At HIM June 2024 AI Tools for Better Math https://www.youtube.com/watch?v=C7NBGlJb2DQ&list=PLul8LCT3AJqQgcJYiC0CycjFLcrhM2fRg&index=4
-* At Topos Institute https://www.youtube.com/watch?v=DAuB6F90KtQ (Oct 2023)
-* At Chapman University https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1 (May 2024)
-* At Women in Logic Online https://www.youtube.com/watch?v=SE5vIeBEGWI (Mar 2024)
+Talks given about the project:
+* At HIM (June 2024) AI Tools for Better Math https://www.youtube.com/watch?v=C7NBGlJb2DQ&list=PLul8LCT3AJqQgcJYiC0CycjFLcrhM2fRg&index=4
+* At Topos Institute (Oct 2023) https://www.youtube.com/watch?v=DAuB6F90KtQ 
+* At Chapman University (May 2024) https://www.youtube.com/watch?v=Wiwm872T1Yk&list=PLhgq-BqyZ7i7oExXDr22w8lNdIC3tcRRW&index=1 
+* At Women in Logic Online (Mar 2024) https://www.youtube.com/watch?v=SE5vIeBEGWI 
 
 Work on mathematical text:
 
-1. The Parmesan prototype from the work with Jacob Collard and Eswaran Subrahmanian is at http://www.jacobcollard.com/parmesan2/
+1. The [Parmesan prototype](http://www.jacobcollard.com/parmesan2/) work with Jacob Collard and Eswaran Subrahmanian
     
 We have preprints:
 * https://arxiv.org/abs/2406.11577 Mathematical Entities: Corpora and Benchmarks, presented at COLING2024 and Workshop
