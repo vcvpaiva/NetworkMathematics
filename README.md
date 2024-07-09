@@ -52,7 +52,9 @@ Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions
 
 5. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort to build a knowledge graph of freely available mathematical concepts.
 
-6. Some notes on this effort, which started in Dagstuhl.
+   Questions/examples of what we wanted to use a knowledge graph for https://docs.google.com/document/d/1bg5ISacYtHqvqmw6uNr4d59s1LjtO6zItNK2SL8nkp8/edit
+
+7. Some notes on this effort,  started in Dagstuhl 1-6 October 2023.
 
   
    
