@@ -50,9 +50,9 @@ But TAC abstracts do NOT contain definitions (I should've known, given Lucy and 
 So we're now using Deyan Ginev's data modified by Frederik Schaefer,  consisting of arxiv math.CT papers. https://github.com/JUrban/extract-defs
 Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions', considered as such by the authors in the arxiv latex files.
 
-2. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort to build a knowledge graph of freely available mathematical concepts.
+5. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort to build a knowledge graph of freely available mathematical concepts.
 
-3. Some notes on this effort, which started in Dagstuhl.
+6. Some notes on this effort, which started in Dagstuhl.
 
   
    
