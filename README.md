@@ -32,9 +32,13 @@ Lucy also has some recent work with Ryan Hathaway [Fine-Tuning BERTs for Definit
 Given the big push for Lean formalization going on, we would like to extend our Lean mappings. How should we go about it? Discussed with Mario how to tap the expertise of Lean developers for that. They have a mental map of which concepts are where in the library. We want that mental map written down.
     
     We are also thinking which other datasets would be useful to connect. LFMDB? Isabelle math? 
+    
+3. The [work with Larry Moss, Bert Gao, and Pavel Kovalev produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently. For this we repurposed a text annotator [MathAnnotator](https://gaoq111.github.io/math_concept_annotation/). Now we're more interested in thinking about using LLMs for Natural Language Inference.
 
 
-3. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv as he calls it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
+   # Work at Hausdorff
+
+1. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv as he calls it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
 Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
  Josef Urban suggests  using LLMS to extract definitions. I pointed him to our 'informal corpora' in
@@ -46,9 +50,11 @@ But TAC abstracts do NOT contain definitions (I should've known, given Lucy and 
 So we're now using Deyan Ginev's data modified by Frederik Schaefer,  consisting of arxiv math.CT papers. https://github.com/JUrban/extract-defs
 Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions', considered as such by the authors in the arxiv latex files.
 
-4. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort.
+2. Together with Stefania Dumbrova and Lucy Horowitz we're considering alignments between definitions in provers Lean, Mizar, Agda, etc. Bauer, Petkovic, and Todorovski constructed the dataset MLFMF "machine learning for mathematical formalization" (https://arxiv.org/pdf/2310.16005), using Lean's mathlib and Agda's libraries unimath, standard, and TypeTopology. We wondered if we could simply use their definitions, as they say their nodes `represent library entries (theorems, lemmas, axioms, and definitions)'. Stefania is leading the effort to build a knowledge graph of freely available mathematical concepts.
 
- 5. The work with Larry Moss, Bert Gao, and Pavel Kovalev which produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently because we're more interested in thinking about using LLMs for Natural Language Inference. But we should reconsider it in the light of the extraction of definitions using LLMS.  
+3. Some notes on this effort, which started in Dagstuhl.
+
+  
    
 # Formalizing Dialectica Categories
 
