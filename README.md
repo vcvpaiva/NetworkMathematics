@@ -35,7 +35,9 @@ Given the big push for Lean formalization going on, we would like to extend our 
     
 3. The [work with Larry Moss, Bert Gao, and Pavel Kovalev produced the preprint [Extracting Mathematical Concepts with Large Language Models](https://arxiv.org/abs/2309.00642) has been a bit neglected recently. For this we repurposed a text annotator [MathAnnotator](https://gaoq111.github.io/math_concept_annotation/). Now we're more interested in thinking about using LLMs for Natural Language Inference.
 
-4. A roadmap of sorts is available  [Network Mathematics: Projects and Problems](https://docs.google.com/document/d/1XihAI2fhHvE9Gg-CemXo7rK9Q3jRVwS3A4L2xpqozos/edit#heading=h.dkqktuuv2bds)
+4. I'm applying the work of Katerina Kalouli on [Hy-NLI: a Hybrid System for Natural Language Inference](http://hynli.nlitoolkit.de/), GKR and [XplaiNLI: eXplainable Natural Language Inference](http://xplainli.nlitoolkit.de/) to informal mathematics. This comes with several challenges, including the need for definitions and dealing with formulas.
+
+5. A preliminary laundry list of tasks is available  [Network Mathematics: Projects and Problems](https://docs.google.com/document/d/1XihAI2fhHvE9Gg-CemXo7rK9Q3jRVwS3A4L2xpqozos/edit#heading=h.dkqktuuv2bds)
  
 
 
