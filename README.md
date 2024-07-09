@@ -15,7 +15,7 @@ Work on mathematical text:
 1. The [Parmesan prototype](http://www.jacobcollard.com/parmesan2/) a math learning assistant, work with Jacob Collard and Eswaran Subrahmanian
     
 We have preprints:
-*  [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577), presented at COLING2024 and Workshop
+*  [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577), presented at COLING2024 and [Workshop MathNLP](https://sites.google.com/view/2nd-mathnlp)
 
 *  [Parmesan: mathematical concept extraction for education](https://arxiv.org/abs/2307.06699) 
 
