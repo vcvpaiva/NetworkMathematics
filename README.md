@@ -43,7 +43,7 @@ Given the big push for Lean formalization going on, we would like to extend our 
 
    # Work at Hausdorff
 
-1. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv as he calls it. so he has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
+1. When we have the latex of a text we can be certain that what the author calls a definition, is one such. Deyan Ginev did an incredible amount of work trying to get the different kinds of latex in the arxiv into a common format ar5iv as he calls it. He has a gigantic corpus of author-identified "definitions", which we can, in principle, tap for our own purposes.
 Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
  Josef Urban suggested  using LLMS to extract definitions. I pointed him to our 'informal corpora' in
@@ -51,7 +51,7 @@ Frederik Schaefer is investigating the idea and has a 1% sample. (more below)
 
 * [nLab 2020](https://github.com/ToposInstitute/nLab2024-corpus) and 2024 (~15K, ~19K pages) in json format. [nLab `clean' sentences](https://raw.githubusercontent.com/ToposInstitute/nlab-corpus/main/nlab_examples.csv) ~50K 
 
-But TAC abstracts do NOT contain definitions (I should've known, given Lucy and Ryan's work) and nLab is not producing good results (don't know why). 
+But TAC abstracts do NOT contain many definitions (I should've known, given Lucy and Ryan's work) and nLab is not producing good results (don't know why). 
 So we're now using Deyan Ginev's data modified by Frederik Schaefer,  consisting of arxiv math.CT papers. https://github.com/JUrban/extract-defs
 Have 3377 math.CT papers in Deyan's 2020 dataset, this gives us 16K 'definitions', considered as such by the authors in the arxiv latex files.
 
