@@ -75,18 +75,20 @@ Some non-formalized discussions can be found at https://github.com/vcvpaiva/Dial
 
 2. Then I talked to Maximilian Dore about it. Maximilian likes cubical Agda very much.
    Since Harley Eades has an old preliminary implementation of Dialectica categories in Agda (see https://github.com/heades/dialectica-spaces/tree/master) trying to use Agda made sense.
-   But Harley did not implement the relations. Max now thinks he would prefer to work on Chu spaces.
+   But Harley did not implement the relations, an essential component. Max now thinks he would prefer to work on Chu spaces.
 
 3. I talked to Cyril Cohen, who thought Rocq  would make sense.
 
 4. Then I talked to Mario Carneiro and the [Dialectica category construction is now in Lean](https://github.com/leanprover-community/mathlib4/pull/14274/files), already proven symmetric monoidal closed. Still need to get the bang operator and products and coproducts though, which I thought would be easier. Then we can generalize to polynomials and more.
   
-5. Mario Carneiro formalization of the original Dialectica construction in Lean  completes the third 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
+5. Mario Carneiro formalization of the original Dialectica construction in Lean  completes a kind of third 'deliverable' from the [MRC on Applied Category Theory](https://www.ams.org/programs/research-communities/2022MRC-Categories) in 2022.
 
 The first deliverable was  on the relationship between Dialectica and polynomials and at least the arxiv preprint  [Monoidal structures on generalized polynomial categories](https://arxiv.org/abs/2305.05655), Joseph Dorta, Samantha Jarvis, and Nelson Niu. May 2023. Presented at ACT 2023 and JMM 2023.
 
 The second deliverable was [On a fibrational construction for optics, lenses, and Dialectica categories](https://arxiv.org/abs/2403.16388)
 Matteo Capucci, Bruno Gavranović, Abdullah Malik, Francisco Rios, Jonathan Weinberger. Presented at MFPS 2024, Oxford.
+
+Another deliverable would be the connection to games pursued by Jeremie, Colin and Jan.
 
    
 
