@@ -47,6 +47,8 @@ The roadmap for achieving this includes the following phases:
 - Build the Mathoscope knowledge graph for Category Theory
 - Develop and benchmark concept extraction pipelines
 - Begin the creation of QA datasets for mathematics
+- Investigate MathNLI and develop automated datasets
+- Investigate (persuasive) argument mining systems
   
 ### Mid-Term Goals (3–5 years)
 - Launch a pilot summarization tool for math texts
@@ -57,7 +59,7 @@ The roadmap for achieving this includes the following phases:
 - A semantic index of all open-access mathematics
 - Revolutionizing math education through interactive AI-assisted exploration
 
-Mathematics is the foundation of scientific progress, yet its complex, interconnected nature is still difficult to navigate. By supporting Network Mathematics, 
+Mathematics is the foundation of scientific progress, yet its complex, interconnected nature is still difficult to navigate. By developing Network Mathematics, 
 we are contributing to the next stage of mathematical research and education—one where AI tools amplify human reasoning and enable faster, deeper insights into 
 the structure of mathematics itself.
 
@@ -65,8 +67,8 @@ the structure of mathematics itself.
 1. "MathGloss: Building Mathematical Glossaries from Text." Lucy Horowitz, Valeria de Paiva [arXiv:2311.12649](https://arxiv.org/abs/2311.12649)
 2. "Extracting Mathematical Concepts with Large Language Models." Valeria de Paiva, Qiyue Gao, Pavel Kovalev, Lawrence Moss [arXiv:2309.00642](https://arxiv.org/abs/2309.00642)
 3. "Mathematical Entities: Corpora and Benchmarks." [ACL Anthology (LREC 2024)](https://aclanthology.org/2024.lrec-main.966/)
-4. "Parmesan: A Prototype for Category-Theoretic NLP." [arXiv:2208.13830](https://arxiv.org/abs/2208.13830)
-5. "From Parmesan to Mathoscope: Extracting Structure in Mathematical Text." [arXiv:2307.06699](https://arxiv.org/abs/2307.06699)
+4. "Extracting Mathematical Concepts from Text" [arXiv:2208.13830](https://arxiv.org/abs/2208.13830)
+5. "Parmesan: mathematical concept extraction for education." [arXiv:2307.06699](https://arxiv.org/abs/2307.06699)
 6. Rajpurkar et al., "SQuAD: 100,000+ Questions for Machine Comprehension of Text." [arXiv:1606.05250](https://arxiv.org/abs/1606.05250)
-7. Lo et al., "TLDR: Extreme Summarization of Scientific Documents." [arXiv:2004.15011](https://arxiv.org/abs/2004.15011)
+7. Cachola et al., "TLDR: Extreme Summarization of Scientific Documents." [arXiv:2004.15011](https://arxiv.org/abs/2004.15011)
 
