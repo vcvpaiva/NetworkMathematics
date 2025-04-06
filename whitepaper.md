@@ -49,17 +49,18 @@ The vision for Network Mathematics is to build a robust, machine-readable networ
 
 ### Short-Term Goals (1–2 years)
 - Expand MathGloss and integrate with external repositories
+- Build the Mathoscope knowledge graph for Category Theory
 - Develop and benchmark concept extraction pipelines
 - Begin the creation of QA datasets for mathematics
-- Launch a pilot summarization tool for math texts
+  
 
 ### Mid-Term Goals (3–5 years)
-- Build the Mathoscope knowledge graph for Category Theory
+- Launch a pilot summarization tool for math texts
 - Develop semantic tools for navigating and querying mathematical graphs
 - Collaborate with publishers to expand math-related corpora
 
 ### Long-Term Vision (5–10 years)
-- A fully-interoperable network of mathematical knowledge graphs
+- A fully interoperable network of mathematical knowledge graphs
 - AI systems that propose new research directions and assist in theorem proving
 - A semantic index of all open-access mathematics
 - Revolutionizing math education through interactive AI-assisted exploration
@@ -68,11 +69,11 @@ The vision for Network Mathematics is to build a robust, machine-readable networ
 Mathematics is the foundation of scientific progress, yet its complex, interconnected nature is still difficult to navigate. By supporting Network Mathematics, you are contributing to the next stage of mathematical research and education—one where AI tools amplify human reasoning and enable faster, deeper insights into the structure of mathematics itself.
 
 ## 7. Acknowledgments
-This project is supported by the collaboration of many researchers and institutions across mathematics, AI, and linguistics. Special thanks to the open-access community, including platforms like Wikipedia, Wikidata, nLab, and OEIS, for providing the foundational data. We also thank early contributors to MathGloss and Mathoscope for their feedback and annotations.
+This project is supported by the collaboration of many researchers and institutions across mathematics, AI, and linguistics. Special thanks to the close collaborators in chronological order: Brendan Fong, Jacob Collard, Eswaran Subrahmanian, Lucy Horowitz, Larry Moss, Qiyue Gao, Pavel Kovalev,  Hai Hu, Yikang Liu, Zhiheng. Thanks to  the open-access community, including platforms like Wikipedia, Wikidata, nLab, and OEIS, for providing the foundational data. We also thank early contributors to MathGloss and Mathoscope for their feedback and annotations.
 
 ## 8. References
-1. "MathGloss: Building Mathematical Glossaries from Text." [arXiv:2311.12649](https://arxiv.org/abs/2311.12649)
-2. "Extracting Mathematical Concepts with Large Language Models." [arXiv:2309.00642](https://arxiv.org/abs/2309.00642)
+1. "MathGloss: Building Mathematical Glossaries from Text." Lucy Horowitz, Valeria de Paiva [arXiv:2311.12649](https://arxiv.org/abs/2311.12649)
+2. "Extracting Mathematical Concepts with Large Language Models." Valeria de Paiva, Qiyue Gao, Pavel Kovalev, Lawrence Moss [arXiv:2309.00642](https://arxiv.org/abs/2309.00642)
 3. "Mathematical Entities: Corpora and Benchmarks." [ACL Anthology (LREC 2024)](https://aclanthology.org/2024.lrec-main.966/)
 4. "Parmesan: A Prototype for Category-Theoretic NLP." [arXiv:2208.13830](https://arxiv.org/abs/2208.13830)
 5. "From Parmesan to Mathoscope: Extracting Structure in Mathematical Text." [arXiv:2307.06699](https://arxiv.org/abs/2307.06699)
