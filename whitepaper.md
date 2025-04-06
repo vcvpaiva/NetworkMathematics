@@ -41,6 +41,12 @@ There is a need for datasets focused specifically on mathematical question-answe
 ### Argument Mapping and Reasoning Tools
 Mathematical reasoning often involves intricate dependencies and logical chains. AI tools designed for argument mapping will help make these relationships explicit, enabling more advanced reasoning and exploration.
 
+### Classification of mathematical statements
+The mathematical literature can be classified into different types of statements: definitions, results (lemmas, theorems, corollaries, facts, remarks), examples, and narration, for example. To do this classification automatically, we need a gold dataset.
+
+### Identifying logical dependencies
+Apart from syntactic dependency (a theorem mentions definitions that it depends on) there is logical dependencies between propositions that we also need to detect.
+
 ### Summarization of Mathematical Content
 With the increasing volume of mathematical literature, summarization tools will allow researchers to quickly understand and engage with new papers. We propose creating an infrastructure for summarizing open-access mathematical texts and linking these summaries to structured knowledge graphs.
 
