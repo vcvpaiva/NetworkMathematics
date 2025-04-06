@@ -2,19 +2,14 @@
 **Valeria de Paiva**  
 Topos Institute  
 
-
-
 Network Mathematics is an ambitious effort to use modern AI tools to uncover, structure, and represent the latent knowledge in mathematics. 
 By building knowledge graphs and leveraging AI-powered tools for question-answering, argument mapping, and summarization, this work aims to enhance mathematical discovery, education, and research.
-
 Mathematics, as a highly formalized and abstract discipline, has a deep underlying structure that is not always easily accessible to modern computational tools. 
 In recent years, natural language processing (NLP) and machine learning (ML) have shown promise in helping bridge this gap. 
 Network Mathematics seeks to leverage these tools to not only extract mathematical knowledge from existing literature but to also make this knowledge more accessible and usable.
 
-## 2. Extracting the Structure of Mathematical Knowledge
 Mathematics is built on precise definitions and intricate relationships between concepts. To uncover these relationships, we must first extract mathematical concepts 
 from existing literature and identify the relationships between them.
-
 MathGloss is an ongoing project that focuses on building a comprehensive glossary of fundamental mathematical concepts. 
 These concepts will be extracted from textbooks, research papers, and other open-access sources. 
 MathGloss aims to connect definitions, contexts, and relationships, providing a foundational layer for more advanced mathematical exploration.
@@ -34,18 +29,16 @@ The potential applications of mathematical knowledge graphs are vast, including:
 - AI-assisted proof generation and reasoning
 - Collaborative platforms for sharing mathematical knowledge
 
-## 3. AI-Augmented Mathematical Research
 AI tools are poised to transform mathematical research by augmenting human expertise. In particular, we propose the creation of specialized question-answering 
 datasets and the use of argument mapping tools for uncovering the structure of mathematical reasoning.
 There is a need for datasets focused specifically on mathematical question-answering (QA), akin to the SQuAD dataset used in natural language research. 
 These datasets will be vital for training AI systems capable of answering complex mathematical questions.
-
 Mathematical reasoning often involves intricate dependencies and logical chains. AI tools designed for argument mapping will help make these 
 relationships explicit, enabling more advanced reasoning and exploration.
 With the increasing volume of mathematical literature, summarization tools will allow researchers to quickly understand and engage with new papers. 
 We propose creating an infrastructure for summarizing open-access mathematical texts and linking these summaries to structured knowledge graphs.
 
-## 4. Vision and Roadmap
+### Vision and Roadmap
 The vision for Network Mathematics is to build a robust, machine-readable network of mathematical knowledge, supported by AI tools for discovery and reasoning. 
 The roadmap for achieving this includes the following phases:
 
@@ -64,12 +57,11 @@ The roadmap for achieving this includes the following phases:
 - A semantic index of all open-access mathematics
 - Revolutionizing math education through interactive AI-assisted exploration
 
-## 6. Call to Action
 Mathematics is the foundation of scientific progress, yet its complex, interconnected nature is still difficult to navigate. By supporting Network Mathematics, 
-you are contributing to the next stage of mathematical research and education—one where AI tools amplify human reasoning and enable faster, deeper insights into 
+we are contributing to the next stage of mathematical research and education—one where AI tools amplify human reasoning and enable faster, deeper insights into 
 the structure of mathematics itself.
 
-## 8. References
+### References
 1. "MathGloss: Building Mathematical Glossaries from Text." Lucy Horowitz, Valeria de Paiva [arXiv:2311.12649](https://arxiv.org/abs/2311.12649)
 2. "Extracting Mathematical Concepts with Large Language Models." Valeria de Paiva, Qiyue Gao, Pavel Kovalev, Lawrence Moss [arXiv:2309.00642](https://arxiv.org/abs/2309.00642)
 3. "Mathematical Entities: Corpora and Benchmarks." [ACL Anthology (LREC 2024)](https://aclanthology.org/2024.lrec-main.966/)
